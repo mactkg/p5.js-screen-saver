@@ -3,8 +3,8 @@
 //  p5.js-screen-saver
 //
 //  Created by Kenta Hara on 11/3/14.
-//  Copyright (c) 2014 Kenta Hara. All rights reserved.
-//
+//  Copyright (c) 2014 Kenta Hara.
+//  MIT License
 
 #import <ScreenSaver/ScreenSaver.h>
 
