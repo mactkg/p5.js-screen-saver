@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3753D0701A078D2F0036A2D6 /* p5_js_screen_saverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3753D06F1A078D2F0036A2D6 /* p5_js_screen_saverView.h */; };
+		3753D0721A078D2F0036A2D6 /* p5_js_screen_saverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3753D0711A078D2F0036A2D6 /* p5_js_screen_saverView.m */; };
+		3753D0791A078D520036A2D6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3753D0781A078D520036A2D6 /* WebKit.framework */; };
+		3753D07E1A07902C0036A2D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3753D07D1A07902C0036A2D6 /* Cocoa.framework */; };
+		3753D0801A0790300036A2D6 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3753D07F1A0790300036A2D6 /* ScreenSaver.framework */; };
+		3753D0851A0790430036A2D6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3753D0811A0790430036A2D6 /* index.html */; };
+		3753D0861A0790430036A2D6 /* p5.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 3753D0821A0790430036A2D6 /* p5.min.js */; };
+		3753D0871A0790430036A2D6 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3753D0831A0790430036A2D6 /* script.js */; };
+		3753D0881A0790430036A2D6 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3753D0841A0790430036A2D6 /* style.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3753D06A1A078D2F0036A2D6 /* p5.js-screen-saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "p5.js-screen-saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3753D06E1A078D2F0036A2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3753D06F1A078D2F0036A2D6 /* p5_js_screen_saverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p5_js_screen_saverView.h; sourceTree = "<group>"; };
+		3753D0711A078D2F0036A2D6 /* p5_js_screen_saverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p5_js_screen_saverView.m; sourceTree = "<group>"; };
+		3753D0781A078D520036A2D6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3753D07D1A07902C0036A2D6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3753D07F1A0790300036A2D6 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		3753D0811A0790430036A2D6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3753D0821A0790430036A2D6 /* p5.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = p5.min.js; sourceTree = "<group>"; };
+		3753D0831A0790430036A2D6 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		3753D0841A0790430036A2D6 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3753D0661A078D2F0036A2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3753D0801A0790300036A2D6 /* ScreenSaver.framework in Frameworks */,
+				3753D07E1A07902C0036A2D6 /* Cocoa.framework in Frameworks */,
+				3753D0791A078D520036A2D6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3753D0601A078D2F0036A2D6 = {
+			isa = PBXGroup;
+			children = (
+				3753D06C1A078D2F0036A2D6 /* p5.js-screen-saver */,
+				3753D07A1A078D5E0036A2D6 /* Frameworks */,
+				3753D06B1A078D2F0036A2D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3753D06B1A078D2F0036A2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3753D06A1A078D2F0036A2D6 /* p5.js-screen-saver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3753D06C1A078D2F0036A2D6 /* p5.js-screen-saver */ = {
+			isa = PBXGroup;
+			children = (
+				3753D06F1A078D2F0036A2D6 /* p5_js_screen_saverView.h */,
+				3753D0711A078D2F0036A2D6 /* p5_js_screen_saverView.m */,
+				3753D0891A07904D0036A2D6 /* webview */,
+				3753D06D1A078D2F0036A2D6 /* Supporting Files */,
+			);
+			path = "p5.js-screen-saver";
+			sourceTree = "<group>";
+		};
+		3753D06D1A078D2F0036A2D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3753D06E1A078D2F0036A2D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3753D07A1A078D5E0036A2D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3753D07F1A0790300036A2D6 /* ScreenSaver.framework */,
+				3753D07D1A07902C0036A2D6 /* Cocoa.framework */,
+				3753D0781A078D520036A2D6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3753D0891A07904D0036A2D6 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				3753D0811A0790430036A2D6 /* index.html */,
+				3753D0821A0790430036A2D6 /* p5.min.js */,
+				3753D0831A0790430036A2D6 /* script.js */,
+				3753D0841A0790430036A2D6 /* style.css */,
+			);
+			name = webview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3753D0671A078D2F0036A2D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3753D0701A078D2F0036A2D6 /* p5_js_screen_saverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3753D0691A078D2F0036A2D6 /* p5.js-screen-saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3753D0751A078D2F0036A2D6 /* Build configuration list for PBXNativeTarget "p5.js-screen-saver" */;
+			buildPhases = (
+				3753D0651A078D2F0036A2D6 /* Sources */,
+				3753D0661A078D2F0036A2D6 /* Frameworks */,
+				3753D0671A078D2F0036A2D6 /* Headers */,
+				3753D0681A078D2F0036A2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p5.js-screen-saver";
+			productName = "p5.js-screen-saver";
+			productReference = 3753D06A1A078D2F0036A2D6 /* p5.js-screen-saver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3753D0611A078D2F0036A2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kenta Hara";
+				TargetAttributes = {
+					3753D0691A078D2F0036A2D6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 3753D0641A078D2F0036A2D6 /* Build configuration list for PBXProject "p5.js-screen-saver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3753D0601A078D2F0036A2D6;
+			productRefGroup = 3753D06B1A078D2F0036A2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3753D0691A078D2F0036A2D6 /* p5.js-screen-saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3753D0681A078D2F0036A2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3753D0861A0790430036A2D6 /* p5.min.js in Resources */,
+				3753D0871A0790430036A2D6 /* script.js in Resources */,
+				3753D0881A0790430036A2D6 /* style.css in Resources */,
+				3753D0851A0790430036A2D6 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3753D0651A078D2F0036A2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3753D0721A078D2F0036A2D6 /* p5_js_screen_saverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3753D0731A078D2F0036A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3753D0741A078D2F0036A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3753D0761A078D2F0036A2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "p5.js-screen-saver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		3753D0771A078D2F0036A2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "p5.js-screen-saver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3753D0641A078D2F0036A2D6 /* Build configuration list for PBXProject "p5.js-screen-saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3753D0731A078D2F0036A2D6 /* Debug */,
+				3753D0741A078D2F0036A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3753D0751A078D2F0036A2D6 /* Build configuration list for PBXNativeTarget "p5.js-screen-saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3753D0761A078D2F0036A2D6 /* Debug */,
+				3753D0771A078D2F0036A2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3753D0611A078D2F0036A2D6 /* Project object */;
+}
