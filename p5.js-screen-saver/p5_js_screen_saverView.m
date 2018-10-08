@@ -24,10 +24,10 @@
     NSURL *url = [NSURL URLWithString:URLString];
    
     // add webview
-    WebView *webView = [[WebView alloc] initWithFrame:frame];
-    webView.frameLoadDelegate = self;
+    WKWebView *webView = [[WKWebView alloc] initWithFrame:[self bounds]];
+    webView.navigationDelegate = self;
     NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
-    [webView.mainFrame loadRequest:request];
+    [webView loadRequest:request];
     [self addSubview:webView];
     return self;
 }
@@ -60,6 +60,28 @@
 - (NSWindow*)configureSheet
 {
     return nil;
+}
+
+// Override default listeners
+
+- (NSView *)hitTest:(NSPoint)aPoint {
+    return self;
+}
+
+- (void)keyDown:(NSEvent *)theEvent {
+    return;
+}
+
+- (void)keyUp:(NSEvent *)theEvent {
+    return;
+}
+
+- (BOOL)acceptsFirstResponder {
+    return YES;
+}
+
+- (BOOL)resignFirstResponder {
+    return NO;
 }
 
 @end
