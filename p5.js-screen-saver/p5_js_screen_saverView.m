@@ -28,8 +28,18 @@
     webView.navigationDelegate = self;
     NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
     [webView loadRequest:request];
+    
+    // Hide webview while loading
+    [webView setHidden:true];
+    
     [self addSubview:webView];
     return self;
+}
+
+// Show webview when finished loading
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation;
+{
+    [webView setHidden:false];
 }
 
 - (void)startAnimation
